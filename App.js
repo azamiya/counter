@@ -1,11 +1,6 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- */
-
 import HomeScreen from './src/containers/Home';
 import SampleScreen from './src/containers/Sample';
+import CounterScreen from './src/containers/Counter';
 
 import { createStackNavigator } from 'react-navigation';
 
@@ -15,5 +10,8 @@ export default createStackNavigator({
   },
   Sample: {
     screen: SampleScreen
+  },
+  Counter: {
+    screen: CounterScreen
   },
 });

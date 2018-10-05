@@ -17,8 +17,12 @@ export default class HomeScreen extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <Button
-          title="Go to Details"
+          title="Go to Sample Screen"
           onPress={() => this.props.navigation.navigate('Sample')}
+        />
+        <Button
+          title="Go to Counter"
+          onPress={() => this.props.navigation.navigate('Counter')}
         />
       </View>
     );

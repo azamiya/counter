@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render sample screen correctly 1`] = `
+exports[`render counter screen correctly 1`] = `
 <View
   style={
     Object {
@@ -20,12 +20,12 @@ exports[`render sample screen correctly 1`] = `
       }
     }
   >
-    Hello this is sample!
+    Hello this is counter!
   </Text>
 </View>
 `;
 
-exports[`renders correctly 1`] = `
+exports[`render home screen correctly 1`] = `
 <View
   style={
     Object {
@@ -110,9 +110,78 @@ Cmd+D or shake for dev menu
           ]
         }
       >
-        Go to Details
+        Go to Sample Screen
       </Text>
     </View>
   </View>
+  <View
+    accessibilityComponentType="button"
+    accessibilityTraits={
+      Array [
+        "button",
+      ]
+    }
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Go to Counter
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`render sample screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "margin": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello this is sample!
+  </Text>
 </View>
 `;
