@@ -1,8 +1,8 @@
 // __tests__/Intro-test.js
 import React from 'react';
-import HomeScreen from '../src/containers/Home';
-import SampleScreen from '../src/containers/Sample';
-import CounterScreen from '../src/containers/Counter';
+import HomeScreen from '../src/screens/Home';
+import SampleScreen from '../src/screens/Sample';
+import CounterScreen from '../src/screens/Counter';
 
 import renderer from 'react-test-renderer';
 
